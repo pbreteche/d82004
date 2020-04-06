@@ -1,0 +1,21 @@
+# Drupal core
+/web/core
+
+# Drupal contribs
+/web/modules/contrib
+/web/profiles/contrib
+/web/themes/contrib
+
+/vendor/
+
+# Ignore configuration files that may contain sensitive information.
+/web/sites/*/settings*.php
+/web/sites/*/services*.yml
+
+# Ignore paths that contain user-generated content.
+/web/sites/*/files
+/web/sites/*/private
+
+# Ignore SimpleTest multi-site environment.
+/web/sites/simpletest
+
