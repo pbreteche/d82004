@@ -1,0 +1,25 @@
+extlink_target: true
+extlink_target_no_override: true
+extlink_nofollow: true
+extlink_follow_no_override: true
+extlink_subdomains: true
+extlink_alert: false
+extlink_alert_text: 'Ce lien vous dirige vers un site externe. Nous ne sommes pas responsables de son contenu.'
+extlink_exclude: ''
+extlink_include: ''
+extlink_class: ext
+extlink_label: '(le lien est externe)'
+extlink_img_class: false
+extlink_css_exclude: ''
+extlink_css_explicit: ''
+extlink_mailto_class: mailto
+extlink_mailto_label: '(link sends email)'
+extlink_use_font_awesome: false
+extlink_font_awesome_classes:
+  links: 'fa fa-external-link'
+  mailto: 'fa fa-envelope-o'
+extlink_icon_placement: '0'
+whitelisted_domains: {  }
+_core:
+  default_config_hash: kL9d-UuNbBrRxajhG6NU-3Iq_YUe8BUMSEAxrUuQBoU
+langcode: fr
