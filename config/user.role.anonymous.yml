@@ -5,7 +5,7 @@ dependencies: {  }
 _core:
   default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
 id: anonymous
-label: 'Anonymous user'
+label: 'Utilisateur anonyme'
 weight: 0
 is_admin: false
 permissions:
@@ -13,4 +13,5 @@ permissions:
   - 'access content'
   - 'access site-wide contact form'
   - 'search content'
+  - 'use text format juste_des_emphases_et_des_listes'
   - 'use text format restricted_html'

@@ -1,0 +1,33 @@
+uuid: 566a11da-8c39-4dd5-8155-0c1996304098
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d2848a10-ad1d-4a7e-b11b-7d9a44e55394'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - bartik
+id: infosdivers
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:d2848a10-ad1d-4a7e-b11b-7d9a44e55394'
+settings:
+  id: 'block_content:d2848a10-ad1d-4a7e-b11b-7d9a44e55394'
+  label: 'Manger, bouger'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      recette: recette
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

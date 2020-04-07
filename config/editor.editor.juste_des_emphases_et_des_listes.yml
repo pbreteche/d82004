@@ -1,0 +1,41 @@
+uuid: c4fb0fca-9a5f-4de1-9947-d3189d00878a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.juste_des_emphases_et_des_listes
+  module:
+    - ckeditor
+format: juste_des_emphases_et_des_listes
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formats
+          items:
+            - Bold
+            - Italic
+        -
+          name: Listes
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Tools
+          items:
+            - Source
+  plugins:
+    stylescombo:
+      styles: ''
+    language:
+      language_list: un
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

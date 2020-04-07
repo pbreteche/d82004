@@ -1,0 +1,36 @@
+uuid: 3c773778-d12e-408c-b8d4-2a81ada72ad8
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Juste des emphases et des listes'
+format: juste_des_emphases_et_des_listes
+weight: 0
+filters:
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<em> <strong> <ul type> <ol start type=''1 A I''> <li> <dl> <dt> <dd>'
+      filter_html_help: true
+      filter_html_nofollow: false
