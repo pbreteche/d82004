@@ -1,0 +1,33 @@
+uuid: 04ba1ae8-aa36-4360-a7f5-e63405fa6694
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.type_de_recette.field_image
+    - taxonomy.vocabulary.type_de_recette
+  module:
+    - image
+    - text
+id: taxonomy_term.type_de_recette.default
+targetEntityType: taxonomy_term
+bundle: type_de_recette
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true
