@@ -5,10 +5,12 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.recette.body
+    - field.field.node.recette.field_demo
     - field.field.node.recette.field_illustration
     - field.field.node.recette.field_ingredients
     - field.field.node.recette.field_preparation
     - field.field.node.recette.field_temps_en_minutes
+    - field.field.node.recette.field_type_de_recette
     - image.style.medium
     - node.type.recette
   module:
@@ -52,6 +54,8 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_demo: true
   field_ingredients: true
   field_preparation: true
+  field_type_de_recette: true
   langcode: true

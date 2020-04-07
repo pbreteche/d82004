@@ -4,10 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.recette.body
+    - field.field.node.recette.field_demo
     - field.field.node.recette.field_illustration
     - field.field.node.recette.field_ingredients
     - field.field.node.recette.field_preparation
     - field.field.node.recette.field_temps_en_minutes
+    - field.field.node.recette.field_type_de_recette
     - image.style.thumbnail
     - node.type.recette
   module:
@@ -35,6 +37,16 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_demo:
+    weight: 128
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_illustration:
     weight: 122
     settings:
@@ -65,6 +77,16 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
+    region: content
+  field_type_de_recette:
+    weight: 127
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   langcode:
     type: language_select
