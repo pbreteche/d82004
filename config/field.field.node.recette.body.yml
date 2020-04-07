@@ -1,0 +1,23 @@
+uuid: edf21143-a041-4e40-9139-bdb5e0700b57
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recette
+  module:
+    - text
+id: node.recette.body
+field_name: body
+entity_type: node
+bundle: recette
+label: Présentation
+description: 'Ce texte sert à présenter la recette. Vous pouvez décrire par exemple <em>quand</em> et <em>comment</em> vous avez élaboré la recette ou dans quelle contexte elle convient particulièrement.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

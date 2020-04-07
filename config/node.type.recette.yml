@@ -1,0 +1,17 @@
+uuid: cf20a1cf-ffec-4b64-a7ec-4585e4d06dee
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Recette
+type: recette
+description: 'Utilisez le type de contenu «recette» quand vous voulez décrire l''élaboration de nos bons petits plats.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

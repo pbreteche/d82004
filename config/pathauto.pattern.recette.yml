@@ -1,0 +1,22 @@
+uuid: bd3bde13-3929-4ce7-8059-5f39b611752c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: recette
+label: Recette
+type: 'canonical_entities:node'
+pattern: 'recette/[node:title]'
+selection_criteria:
+  6b139ed3-ef23-4873-b4d3-175c122bf416:
+    id: node_type
+    bundles:
+      recette: recette
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 6b139ed3-ef23-4873-b4d3-175c122bf416
+selection_logic: and
+weight: -5
+relationships: {  }

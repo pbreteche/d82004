@@ -1,0 +1,23 @@
+uuid: a6353fa5-a1cc-4b4e-a8ca-0fd5bf51cc4c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_temps_en_minutes
+    - node.type.recette
+id: node.recette.field_temps_en_minutes
+field_name: field_temps_en_minutes
+entity_type: node
+bundle: recette
+label: 'Temps en minutes'
+description: 'Décrivez le temps total de la recette, en incluant le temps de cuisson, mais pas la vaisselle.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: min
+field_type: integer

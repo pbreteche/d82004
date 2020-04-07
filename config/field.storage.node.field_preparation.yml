@@ -1,0 +1,20 @@
+uuid: 8cfedf61-8022-44d2-8a47-32ea047509f3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_preparation
+field_name: field_preparation
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

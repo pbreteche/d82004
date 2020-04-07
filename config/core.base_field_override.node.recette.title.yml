@@ -1,0 +1,18 @@
+uuid: e6d22507-fd12-40d5-93de-165da01238d7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.recette
+id: node.recette.title
+field_name: title
+entity_type: node
+bundle: recette
+label: Intitulé
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
