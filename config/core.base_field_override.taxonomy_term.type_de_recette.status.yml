@@ -1,0 +1,22 @@
+uuid: 7a57e035-dc57-43a0-9f93-ab5f8bba10f7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_de_recette
+id: taxonomy_term.type_de_recette.status
+field_name: status
+entity_type: taxonomy_term
+bundle: type_de_recette
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

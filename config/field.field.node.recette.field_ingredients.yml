@@ -12,7 +12,7 @@ bundle: recette
 label: Ingrédients
 description: 'Énumérez tous vos ingrédients.'
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

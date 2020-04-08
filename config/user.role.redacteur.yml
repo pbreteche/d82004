@@ -1,0 +1,18 @@
+uuid: ccc9c4f5-d756-4b3b-8f3d-a7bcb3f4812f
+langcode: fr
+status: true
+dependencies: {  }
+id: redacteur
+label: 'Contributeur de recette'
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'create article content'
+  - 'create recette content'
+  - 'create terms in type_de_recette'
+  - 'delete own recette content'
+  - 'edit own recette content'
+  - 'revert recette revisions'
+  - 'view own unpublished content'
+  - 'view recette revisions'

@@ -1,0 +1,20 @@
+uuid: 398f13c5-a7c2-485a-8b04-4a332a060894
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_de_recette
+  module:
+    - text
+id: taxonomy_term.type_de_recette.description
+field_name: description
+entity_type: taxonomy_term
+bundle: type_de_recette
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

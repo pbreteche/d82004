@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.recette.body
-    - field.field.node.recette.field_demo
     - field.field.node.recette.field_illustration
     - field.field.node.recette.field_ingredients
     - field.field.node.recette.field_preparation
@@ -54,7 +53,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_demo: true
   field_ingredients: true
   field_preparation: true
   field_type_de_recette: true

@@ -1,0 +1,20 @@
+uuid: 2977b5d0-99e3-4254-ab7d-f40d79d1fefb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_de_recette
+  module:
+    - path
+id: taxonomy_term.type_de_recette.path
+field_name: path
+entity_type: taxonomy_term
+bundle: type_de_recette
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,14 @@
+uuid: 1da3fde7-d22c-43f2-8b6d-8952201c93b8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.redacteur_actu
+  module:
+    - user
+id: user_add_role_action.redacteur_actu
+label: 'Ajouter le rôle Rédacteur actu aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: redacteur_actu

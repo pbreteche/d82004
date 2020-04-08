@@ -1,0 +1,18 @@
+uuid: f12efecc-e32e-4fce-8126-81955c24e614
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_de_recette
+id: taxonomy_term.type_de_recette.name
+field_name: name
+entity_type: taxonomy_term
+bundle: type_de_recette
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

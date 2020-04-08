@@ -1,0 +1,14 @@
+uuid: 194f065e-45aa-42ef-8724-b53809309ef0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.redacteur_actu
+  module:
+    - user
+id: user_remove_role_action.redacteur_actu
+label: 'Enlever le rôle Rédacteur actu des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: redacteur_actu

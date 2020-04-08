@@ -1,0 +1,9 @@
+uuid: 859bdeca-5822-44a4-8114-93ede437180e
+langcode: fr
+status: true
+dependencies: {  }
+id: redacteur_actu
+label: 'Rédacteur actu'
+weight: 4
+is_admin: null
+permissions: {  }
