@@ -1,0 +1,32 @@
+uuid: 820e627b-2c2e-4a3f-af32-8c1ae22bf259
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.recettes_par_categorie
+  module:
+    - ctools
+    - views
+  theme:
+    - bartik
+id: views_block__recettes_par_categorie_block_2
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:recettes_par_categorie-block_2'
+settings:
+  id: 'views_block:recettes_par_categorie-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      recette: recette
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
