@@ -3,8 +3,10 @@
   background: #C6A584;
 }
 
+.region-header .block-system-branding-block {
+  display: flex;
+}
 .region-header .site-logo {
-  float: left;
   margin: .5em;
 }
 
