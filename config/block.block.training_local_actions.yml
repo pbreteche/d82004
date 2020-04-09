@@ -1,0 +1,20 @@
+uuid: f1122c88-6ac5-4ec6-8e19-b735ad9c50d8
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - training
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: training_local_actions
+theme: training
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: dba60254-6f35-4abb-a357-4c89643b1e35
+langcode: fr
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - training
+id: training_selecteurdelangue
+theme: training
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Sélecteur de langue'
+  provider: language
+  label_display: visible
+visibility: {  }

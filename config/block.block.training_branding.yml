@@ -1,0 +1,25 @@
+uuid: 003d62d4-8b4e-4701-a732-da0543ef6c65
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - training
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: training_branding
+theme: training
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marque du site'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

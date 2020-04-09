@@ -1,0 +1,24 @@
+uuid: c6004cbd-1eb5-41ab-b376-456c72a3b03b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.recettes_par_categorie
+  module:
+    - views
+  theme:
+    - training
+id: training_views_block__recettes_par_categorie_block_1
+theme: training
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:recettes_par_categorie-block_1'
+settings:
+  id: 'views_block:recettes_par_categorie-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

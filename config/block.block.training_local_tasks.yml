@@ -1,0 +1,22 @@
+uuid: 28f220bc-11c4-4120-a9d3-48ded05db5d9
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - training
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: training_local_tasks
+theme: training
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

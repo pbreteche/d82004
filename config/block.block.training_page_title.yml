@@ -1,0 +1,20 @@
+uuid: a9cf23fc-74bc-418c-b05a-8d541ef430bb
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - training
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: training_page_title
+theme: training
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  provider: core
+  label_display: '0'
+visibility: {  }
