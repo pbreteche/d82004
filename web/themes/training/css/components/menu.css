@@ -1,0 +1,20 @@
+.region-primary-menu {
+  background: #444E2D;
+}
+
+.region-primary-menu .menu {
+  padding: .5em;
+  display: flex;
+  margin: 0;
+}
+
+.region-primary-menu .menu a {
+  padding: .5em;
+  color: #C6A584;
+  display: block;
+}
+
+.region-primary-menu .menu a:hover {
+  color: #444E2D;
+  background: #C6A584;
+}

@@ -1,0 +1,19 @@
+.region-header {
+  padding: .5em;
+  background: #C6A584;
+}
+
+.region-header .site-logo {
+  float: left;
+  margin: .5em;
+}
+
+.region-header .site-name {
+  font-size: 2.5em;
+}
+
+.region-header .site-name a {
+  color: #444E2D;
+  text-decoration: none;
+  text-shadow: 0 0 .25em white;
+}
