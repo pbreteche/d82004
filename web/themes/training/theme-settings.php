@@ -24,4 +24,10 @@ function training_form_system_theme_settings_alter(&$form, &$form_state) {
     '#default_value' => theme_get_setting('font_size'),
   ];
 
+  $form['training']['color'] = [
+    '#type' => 'color',
+    '#title' => t('Color'),
+    '#default_value' => theme_get_setting('color'),
+  ];
+
 }

@@ -1,4 +1,14 @@
 font_size: 16
+color: '#d7271c'
 _core:
-  default_config_hash: N7xZnv-ntKe1d_CqF7-BxGeX6UeFMW6yjEIF6lF3YmM
+  default_config_hash: 3CEUc1bGDRLTJ-cZR6VWzfpC7f8BkvNW9XY5KzdEjwA
 langcode: fr
+features:
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+logo:
+  use_default: true
+favicon:
+  use_default: true

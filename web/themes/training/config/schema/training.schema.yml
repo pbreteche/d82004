@@ -6,3 +6,6 @@ training.settings:
     font_size:
       type: integer
       label: Font size
+    color:
+      type: string
+      label: Color
