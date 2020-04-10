@@ -1,3 +1,28 @@
+/********************************************
+   Banner layout
+ ********************************************/
+.layout-container > header {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.region-header {
+  flex: 1 0 auto;
+}
+
+.region-primary-menu {
+  order: 3;
+  flex: 0 0 100%;
+}
+
+.region-secondary-menu {
+  order: 2;
+  flex: 0 0 25%;
+}
+
+/********************************************
+   Main layout
+ ********************************************/
 main {
   display: flex;
 }
