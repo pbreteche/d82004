@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Démo jQuery</title>
+</head>
+<body>
+<button class="trigger">inverser</button>
+<ul class="fruits">
+  <li>Apple</li>
+  <li>Banana</li>
+  <li>Cherry</li>
+  <li>Date</li>
+</ul>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+<script>
+  $(function() {
+    $('.fruits :nth-child(odd').hide();
+
+    $('.trigger').click(function() {
+      $('.fruits > li').toggle();
+    })
+  });
+</script>
+</body>
+</html>
