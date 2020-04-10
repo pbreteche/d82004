@@ -1,22 +1,22 @@
-uuid: 4245a059-a150-42fd-b029-70965ba7823a
+uuid: 10dcfa70-849e-4bf3-8102-e7d5fd1a0c4c
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.article
+    - node.type.book
   module:
     - text
 _core:
-  default_config_hash: IjZnOLWk1Pjq3WRg2pLSA1ERh7Po7izCq_p6UztZr2c
-id: node.article.body
+  default_config_hash: 718sPNbCWIXxNeDj1kRMyvll4TdMM9sxlzPrShb1dKU
+id: node.book.body
 field_name: body
 entity_type: node
-bundle: article
+bundle: book
 label: Body
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
