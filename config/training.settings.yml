@@ -1,5 +1,5 @@
 font_size: 16
-color: '#d7271c'
+color: '#3d6926'
 _core:
   default_config_hash: 3CEUc1bGDRLTJ-cZR6VWzfpC7f8BkvNW9XY5KzdEjwA
 langcode: fr
@@ -9,6 +9,7 @@ features:
   comment_user_verification: true
   favicon: true
 logo:
-  use_default: true
+  use_default: false
+  path: 'public://prompt-shell-small.png'
 favicon:
   use_default: true

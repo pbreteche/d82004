@@ -12,7 +12,7 @@ dependencies:
     - image.style.large
     - node.type.recette
   module:
-    - image
+    - field_slideshow
     - text
     - user
 id: node.recette.default
@@ -33,8 +33,32 @@ content:
     settings:
       image_style: large
       image_link: ''
+      slideshow:
+        fx: fade
+        allowWrap: '1'
+        autoHeight: '0'
+        delay: '0'
+        hideNonActive: '1'
+        loader: 'false'
+        loop: '0'
+        speed: '500'
+        startingSlide: '0'
+        sync: '1'
+        timeout: '4000'
+        pauseOnHover: 0
+        paused: 0
+        random: 0
+        reverse: 0
+        swipe: 0
+      slideshow_pager:
+        pager:
+          after: after
+          before: 0
+        pager_type: thumbnails
+        controls: '1'
+      colorbox_image_style: null
     third_party_settings: {  }
-    type: image
+    type: slideshow
     region: content
   field_ingredients:
     weight: 106

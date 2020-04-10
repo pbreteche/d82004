@@ -1,3 +1,4 @@
+.menu .menu,
 .region-primary-menu {
   background: #444E2D;
 }
@@ -8,13 +9,30 @@
   margin: 0;
 }
 
-.region-primary-menu .menu a {
+.region-primary-menu .menu a,
+.region-primary-menu .menu span {
   padding: .5em;
   color: #C6A584;
   display: block;
 }
 
-.region-primary-menu .menu a:hover {
+.region-primary-menu .menu a:hover,
+.region-primary-menu .menu span:hover {
   color: #444E2D;
   background: #C6A584;
+}
+
+.menu .menu {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+}
+
+.menu .menu.hidden {
+  display: none;
+}
+
+.menu .menu-item--expanded {
+  cursor: pointer;
+  position: relative
 }

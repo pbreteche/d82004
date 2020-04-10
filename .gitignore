@@ -8,6 +8,9 @@
 
 /vendor/
 
+# jQuery libraries
+/web/libraries/
+
 # Ignore configuration files that may contain sensitive information.
 /web/sites/*/settings*.php
 /web/sites/*/services*.yml

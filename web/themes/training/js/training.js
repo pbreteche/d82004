@@ -12,9 +12,13 @@
    */
   Drupal.behaviors.training = {
     attach: function (context, settings) {
+      const $subMenus = $('.menu .menu', context).once('hidingSubMenu');
+      $subMenus.addClass('hidden');
 
-      console.log('It works!');
-
+      const $menuTriggers = $('.menu-item--expanded', context).once('triggerMenuEvent');
+      $menuTriggers.on('click', function(e) {
+        $(this).children('ul.menu').toggleClass('hidden')
+      });
     }
   };
 

@@ -23,6 +23,7 @@
         "drupal/devel": "^2.1",
         "drupal/diff": "^1.0",
         "drupal/extlink": "^1.2",
+        "drupal/field_slideshow": "^3.0@beta",
         "drupal/pathauto": "^1.6",
         "drupal/redirect": "^1.5",
         "drush/drush": "^10.2"
